@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Dia em Blocos</title>
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+<body>
+    <button class="theme-toggle" onclick="toggleTheme()">🌙</button>
+    
+    <div class="container">
+        <div class="left-panel">
+            <h1 class="app-title">Meu Dia em blocos :)</h1>
+            
+            <div class="tasks-section">
+                <h3 class="section-title">Tarefas</h3>
+                <div class="task-list" id="taskList"></div>
+                <button class="add-task-btn" onclick="addTask()">+</button>
+            </div>
+            
+            <div class="controls-section">
+                <h3 class="section-title">Controles</h3>
+                <div class="control-buttons">
+                    <button class="control-btn eraser" id="eraserBtn" onclick="toggleEraser()">
+                        🧽 Borracha
+                    </button>
+                    <button class="control-btn" onclick="resetBlocks()">
+                        🔄 Resetar Blocos
+                    </button>
+                    <button class="control-btn" onclick="resetTasks()">
+                        ❌ Resetar Tarefas
+                    </button>
+                    <button class="control-btn export-btn" onclick="exportToPNG()">
+                        📷 Exportar PNG
+                    </button>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-panel">
+            <div class="date-navigation">
+                <button class="date-nav-btn" onclick="changeDate(-1)">←</button>
+                <div class="current-date" id="currentDate"></div>
+                <button class="date-nav-btn" onclick="changeDate(1)">→</button>
+            </div>
+            
+            <div class="grid-container">
+                <div class="time-grid" id="timeGrid"></div>
+            </div>
+        </div>
+    </div>
+    
+    <footer class="footer">
+        Um projeto por Nico Thay, inspirado pelo app Blocos. 
+        <a href="https://behance.net/nicothay" target="_blank">Quer me conhecer melhor? :)</a>
+    </footer>
+    
+    <script src="app.js"></script>
+</body>
+</html>
