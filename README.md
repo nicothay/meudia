@@ -5,12 +5,15 @@ Mini web app para organização do dia em blocos de 10 minutos, inspirado pelo a
 https://meudia.neocities.org
 
 <h2>Funções</h2>
-- Grid de blocos dividindo o cada hora do dia de 00:00 até 23:00 em blocos de 10 minutos
-- Legenda de tarefas com cores atribuídas a cada tarefa
-- Função de colorir os blocos com as cores da cada tarefa com clique e drag do mouse
-- Função de borracha para apagar atividades atribuídas aos blocos e retornar ao modo "sem cor"
-- Versão mobile funcional
-- Exportação do planejamento em PNG (com erros)
+<ul>
+<li>Grid de blocos dividindo o cada hora do dia de 00:00 até 23:00 em blocos de 10 minutos</li>
+<li>Legenda de tarefas com cores atribuídas a cada tarefa</li>
+<li>Função de colorir os blocos com as cores da cada tarefa com clique e drag do mouse</li>
+<li>Função de borracha para apagar atividades atribuídas aos blocos e retornar ao modo "sem cor"</li>
+<li>Versão mobile funcional</li>
+<li>Exportação do planejamento em PNG <mark class="red">(com erros)</mark>
+</li>
+</ul>
 
 <h2>Objetivos</h2>
 <input type="checkbox" id="task1">
